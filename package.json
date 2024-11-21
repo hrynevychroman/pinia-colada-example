@@ -1,0 +1,47 @@
+{
+  "name": "nuxt-app",
+  "type": "module",
+  "private": true,
+  "packageManager": "pnpm@9.14.1",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "db:generate": "drizzle-kit generate"
+  },
+  "dependencies": {
+    "@formkit/auto-animate": "^0.8.2",
+    "@nuxt/eslint": "^0.7.1",
+    "@nuxt/ui": "^2.19.2",
+    "@nuxthub/core": "^0.8.7",
+    "@pinia/colada": "^0.12.1",
+    "@pinia/colada-nuxt": "^0.0.3",
+    "@pinia/nuxt": "^0.7.0",
+    "@vee-validate/nuxt": "^4.14.7",
+    "@vee-validate/zod": "^4.14.7",
+    "drizzle-orm": "^0.36.3",
+    "drizzle-zod": "^0.5.1",
+    "h3": "^1.13.0",
+    "nitropack": "^2.10.4",
+    "nuxt": "^3.14.1592",
+    "pinia": "^2.2.6",
+    "tailwindcss": "^3.4.15",
+    "vee-validate": "^4.14.7",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^3.9.2",
+    "@nuxtjs/tailwindcss": "^6.12.2",
+    "@vueuse/core": "^11.2.0",
+    "@vueuse/nuxt": "^11.2.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "drizzle-kit": "^0.28.1",
+    "tailwind-merge": "^2.5.4",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "^5.6.3",
+    "wrangler": "^3.88.0"
+  }
+}

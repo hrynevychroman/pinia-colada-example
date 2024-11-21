@@ -1,0 +1,23 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+
+  "tailwindCSS.classAttributes": [
+    "class",
+    "className",
+    "numberClass",
+    "number-class",
+    "textClass",
+    "text-class"
+  ],
+
+  "tailwindCSS.experimental.classRegex": [
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+  ],
+
+  "vue.editor.focusMode": false,
+
+  "files.associations": {
+    "*.css": "tailwindcss"
+  }
+}
